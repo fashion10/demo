@@ -213,6 +213,7 @@ DEPENDENCIES
   hirb-unicode
   jbuilder (~> 2.0)
   jquery-rails (= 3.0.4)
+  minitest
   mysql2 (= 0.3.20)
   pg (= 0.15.1)
   pry-byebug
