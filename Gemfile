@@ -4,7 +4,7 @@ ruby '2.1.2'
 gem 'rails', '4.2.4' #railsのバージョンは、tutorial通りにさげた。元は、4.2.4
 gem 'sprockets'
 gem 'autoprefixer-rails'
-
+gem 'bcrypt-ruby'
 gem 'bootstrap-sass', '~> 3.2.0.0'
 
 # Use mysql as the database for Active Record
@@ -23,6 +23,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '1.1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+
+gem 'shoulda-matchers'
 
 #gem "minitest"
 # bundle exec rake doc:rails generates the API under doc/api.
