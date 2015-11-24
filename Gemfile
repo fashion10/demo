@@ -5,7 +5,7 @@ gem 'rails', '4.2.4' #railsのバージョンは、tutorial通りにさげた。
 gem 'sprockets'
 gem 'autoprefixer-rails'
 gem 'bcrypt-ruby'
-gem 'bootstrap-sass', '~> 3.2.0.0'
+gem 'bootstrap-sass', '~> 2.3.2.0'
 
 # Use mysql as the database for Active Record
 gem 'mysql2', '0.3.20'
@@ -19,6 +19,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'therubyracer', platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '1.1.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -58,6 +60,7 @@ end
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
+  gem 'factory_girl_rails'
 end
 
 group :development do

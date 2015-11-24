@@ -35,6 +35,13 @@ module Demo
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+    Rails.application.config.assets.paths << Rails.root.join("vendor", "bundle", "ruby","2.1.0","gems","bootstrap-sass-2.3.2.2","vendor","assets","stylesheets")
+
+
+    config.assets.paths << File.expand_path("demo/vendor/bundle/ruby/2.1.0/gems/jquery-ui-rails-5.0.5/app/assets/javascripts/", __FILE__)
+    config.assets.paths << File.expand_path("demo/vendor/bundle/ruby/2.1.0/gems/jquery-ui-rails-4.0.5/vendor/assets/javascripts/", __FILE__)
+
   end
 end
