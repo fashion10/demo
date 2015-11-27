@@ -40,8 +40,8 @@ module Demo
     Rails.application.config.assets.paths << Rails.root.join("vendor", "bundle", "ruby","2.1.0","gems","bootstrap-sass-2.3.2.2","vendor","assets","stylesheets")
 
 
-    config.assets.paths << File.expand_path("demo/vendor/bundle/ruby/2.1.0/gems/jquery-ui-rails-5.0.5/app/assets/javascripts/", __FILE__)
-    config.assets.paths << File.expand_path("demo/vendor/bundle/ruby/2.1.0/gems/jquery-ui-rails-4.0.5/vendor/assets/javascripts/", __FILE__)
-
+    config.assets.paths << File.expand_path("../../vendor/bundle/ruby/2.1.0/gems/jquery-ui-rails-5.0.5/app/assets/javascripts/", __FILE__)
+    config.assets.paths << File.expand_path("../../vendor/bundle/ruby/2.1.0/gems/jquery-rails-4.0.5/vendor/assets/javascripts/", __FILE__)
+    config.assets.paths << File.expand_path("../../vendor/bundle/ruby/2.1.0/gems/turbolinks-2.5.3/lib/assets/javascripts/", __FILE__)
   end
 end

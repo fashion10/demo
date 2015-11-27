@@ -12,7 +12,7 @@
 //
 //= require bootstrap
 //= require jquery-ui.js
-//= require jquery_ujs
+//= require jquery_ujs.js
 //= require bootstrap
-//= require turbolinks
+//= require turbolinks.js
 //= require_tree .
