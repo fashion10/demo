@@ -5,6 +5,8 @@ require 'minitest/autorun'
 require 'rspec/rails'
 require 'rspec/autorun'
 require 'factory_girl_rails'
+require 'will_paginate'
+require 'will_paginate/active_record'
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.

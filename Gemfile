@@ -9,7 +9,6 @@ gem 'bootstrap-sass', '~> 2.3.2.0'
 gem 'faker'
 gem 'ffaker'
 gem 'will_paginate'
-gem 'bootstrap-will_paginate'
 
 # Use mysql as the database for Active Record
 gem 'mysql2', '0.3.20'
@@ -45,7 +44,6 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'capistrano-rails', group: :development
 
 group :production do
-  gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
 
@@ -69,4 +67,5 @@ end
 
 group :development do
   gem 'web-console', '~> 2.0'
+  gem 'quiet_assets'
 end
